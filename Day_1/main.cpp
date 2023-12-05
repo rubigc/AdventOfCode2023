@@ -116,6 +116,7 @@ int main(){
     if(feof(inputFile))
       error = 1;
   }
+  fclose(inputFile);
 
   printf("\nThe final Total number is: %d\n", total);
   return(0);
