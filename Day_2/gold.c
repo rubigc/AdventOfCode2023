@@ -2,10 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_BLUE 14
-#define MAX_GREEN 13
-#define MAX_RED 12
-
 char *gameTypes[] = {"blue", "red", "green", "-1"};
 
 /**
